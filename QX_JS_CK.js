@@ -1,4 +1,4 @@
-hostname = operation-api.jimistore.com, api.m.jd.com, jdread-api.jd.com, draw.jdfcloud.com, c.tieba.baidu.com, tieba.baidu.com, ifac*.iqiyi.com, music.163.com, *.you.163.com, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, 110.43.90.61, zt.wps.cn, proxy.vac.qq.com, qqpet.jwetech.com, *.youth.cn, ios.baertt.com, api.inews.qq.com, www.2xtj7.cn, www.baimaa.com, www.hnmiaosu.cc, ph0001.hezyq.com, wq.02gk.com,dk.ne72.com
+hostname = operation-api.jimistore.com, api.m.jd.com, jdread-api.jd.com, draw.jdfcloud.com, c.tieba.baidu.com, tieba.baidu.com, ifac*.iqiyi.com, music.163.com, *.you.163.com, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, 110.43.90.61, zt.wps.cn, proxy.vac.qq.com, qqpet.jwetech.com, *.youth.cn, ios.baertt.com, api.inews.qq.com, *.ctrp.com, www.2xtj7.cn, www.baimaa.com, www.hnmiaosu.cc, ph0001.hezyq.com, wq.02gk.com,dk.ne72.com
 
 
 
@@ -49,19 +49,11 @@ https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi? url script-request-header ht
 #QQ萌宠获取cookie(qqpet.jwetech.com
 https:\/\/qqpet.jwetech.com\/api\/authorizations url script-response-body https://raw.githubusercontent.com/lowking/Scripts/master/QQPet/lkQQPet.js
 
+#微信携程（*.ctrp.com）
+https://socketio\.ctrip\.com/api url reject
+^https:\/\/m\.ctrip\.com\/restapi\/soa2\/16575\/signin url script-request-body https://github.com/barrym-chen/Script/raw/master/ctrip_wx/ct_cookie.js
 
 ################################################    薅羊毛
-#爱尚打卡(ph0001.hezyq.com
-https:\/\/ph0001\.hezyq\.com\/* url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js
-
-#陀螺打卡(wq.02gk.com
-https:\/\/ph0001\.hezyq\.com\/* url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js
-
-#音乐打卡(www.baimaa.com
-https:\/\/www\.baimaa\.com\/* url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js
-
-#早起打卡(ph0001.hezyq.com
-https:\/\/ph0001\.hezyq\.com\/* url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js
 
 #微信打卡(www.2xtj7.cn,www.baimaa.com,www.hnmiaosu.cc,ph0001.hezyq.com,wq.02gk.com,dk.ne72.com
 https:\/\/(www\.baimaa\.com|www\.2xtj7\.cn|www\.hnmiaosu\.cc)\/app\/index\.php? url script-request-header https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/wxdaka.js
