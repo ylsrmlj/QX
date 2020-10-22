@@ -51,10 +51,6 @@ cron "0 10 0 * * *" script-path=https://github.com/ylsrmlj/Loon-Scripts/raw/mast
 
 
 0 2,13,25,45,55 0-23 * * ? https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/wxdaka.js, tag=微信小程序打卡签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=true
-0 0/1 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js, tag=爱尚打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=true
-0 0/1 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js, tag=陀螺打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=false
-0 0/1 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, tag=音乐打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=true
-0 0/1 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, tag=早起打卡小程序, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=true
 
 
 #系统
