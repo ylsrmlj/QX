@@ -47,7 +47,7 @@
 #薅羊毛
 0 9 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js, tag=腾讯新闻, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png, enabled=true
 0 9 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/youth.png, enabled=false
-cron "0 10 0 * * *" script-path=https://github.com/ylsrmlj/Loon-Scripts/raw/master/.github/ISSUE_TEMPLATE/ttwbxcxSign.js, tag=天天挖矿小程序, enabled=true
+0 10 0 * * * https://github.com/ylsrmlj/Loon-Scripts/raw/master/.github/ISSUE_TEMPLATE/ttwbxcxSign.js, tag=天天挖矿小程序, enabled=true
 
 
 0 2,13,25,45,55 0-23 * * ? https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/wxdaka.js, tag=微信小程序打卡签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/qktx.png, enabled=true
